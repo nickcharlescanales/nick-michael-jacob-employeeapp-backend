@@ -8,7 +8,7 @@ var mongoose = require ('mongoose');
 //var bodyParser = require ('body-parser');
 var dbConfig = require('./database/db');
 
-// Connecting with mongo db
+// this will be Connecting with mongo db
 mongoose.Promise = global.Promise;
 console.log(dbConfig)
 mongoose.connect(dbConfig.db, {
